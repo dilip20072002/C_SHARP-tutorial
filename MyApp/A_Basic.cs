@@ -14,6 +14,9 @@ namespace MyApp
             // C_String.ShowString(args);
             // D_Number.ShowNumber(args);
             // E_GetInput.GetInput(args);
+            // F_Array.ShowArray(args)
+            // G_Method.ShowMethod(args);
+            H_Statement.ShowStatement(args);
         }
     }
 }
