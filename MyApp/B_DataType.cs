@@ -19,11 +19,12 @@ namespace MyApp
             float discount = price + 5.5f;
 
             Console.WriteLine("Number: " + num);
-            Console.WriteLine($"Name: {name}");
-            Console.WriteLine($"Is Active: {isActive}");
-            Console.WriteLine($"First Letter: {firstLetter}");
-            Console.WriteLine($"Price: {price}");
-            Console.WriteLine($"Discounted Price: {discount}");
+            Console.WriteLine("Name: " + name);
+            Console.WriteLine("Is Active: " + isActive);
+            Console.WriteLine("First Letter: " + firstLetter);
+            Console.WriteLine("Value of Pi: " + pi);
+            Console.WriteLine("Price: " + price);
+            Console.WriteLine("Discounted Price: " + discount);
         }    
     }
 
