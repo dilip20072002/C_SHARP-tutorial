@@ -8,7 +8,7 @@ namespace MyApp
 {
     class B_DataType
     {
-        public static void ShowData()
+        public static void ShowData(string[] args)
         {
             int num = 43;
             string name = "Dilip Patel";
