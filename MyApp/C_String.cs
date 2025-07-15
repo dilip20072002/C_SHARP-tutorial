@@ -22,7 +22,7 @@ namespace MyApp
             Console.WriteLine(name.LastIndexOf('l'));
             Console.WriteLine(name.IndexOf("Patel"));
             Console.WriteLine(name.IndexOf("Dilip"));
-            Console.WriteLine(name[4]);
+            Console.WriteLine(name[3]);
             Console.WriteLine(name.Substring(0, 5));
             Console.WriteLine(name.Replace("Dilip", "Patel"));
             Console.WriteLine(name.Trim());
