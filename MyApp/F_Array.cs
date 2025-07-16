@@ -10,7 +10,7 @@ namespace MyApp
         public static void ShowArray(string[] args)
         {
             int[] arr = { 1, 2, 3, 4, 5, 6, 7 };
-            Console.WriteLine(arr[1]);
+            // Console.WriteLine(arr[1]);
 
             // Display another way to create and display an array
             string[] name = new string[5];
@@ -29,7 +29,7 @@ namespace MyApp
             // Display array using loop
             foreach (string i in name)
             {
-                Console.WriteLine(i);
+                // Console.WriteLine(i);
             }
 
 
@@ -44,14 +44,23 @@ namespace MyApp
             // Display array using loop
             for (int i = 0; i < arr1.Length; i++)
             {
-                Console.WriteLine(arr1[i]);
+                // Console.WriteLine(arr1[i]);
             }
 
             // or we can write 'for' look like this too
             foreach (int i in arr1)
             {
-                Console.WriteLine(i);
+                // Console.WriteLine(i);
             }
+
+
+            // 2D array example
+            int[,] arr2D = {
+                {3,4},
+                {5,6},
+                {8,9}
+            };
+            Console.WriteLine(arr2D[0, 1]); // Accessing element at row 0, column 1
         }
     }
 }
