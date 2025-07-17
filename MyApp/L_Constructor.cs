@@ -8,11 +8,11 @@ namespace MyApp
     class L_Constructor
     {
         public string name;
-        
+
         // default constructor
         public L_Constructor()
         {
-            name = "Default Name";
+            name = "Default Name of Constructor";
         }
 
         // parameterized constructor
